@@ -160,15 +160,17 @@ nav ul li a:hover {
 }
 
 .bag-items {
-  width: 100%;
-  position: absolute;
+  width: 200px;
+  position: fixed;
+  top: 50px;
+  right: 150px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: white;
   transition: 0.5s;
   border-radius: 10px;
-  border: black;
+  border: 1px solid #d2d2d7;
   display: none;
   filter: blur(0px);
   z-index: 10;
@@ -187,13 +189,14 @@ nav ul li a:hover {
   box-sizing: border-box;
   padding: 11px;
   padding-left: 28px;
-  width: 85vw;
+  width: calc(100% - 20px);
   display: block;
-  border-top: 1px solid black;
+  border-top: 1px solid #d2d2d7;
+  margin: 0px 10px;
 }
 
 .bag-items p {
   text-align: center;
-  padding: 25px;
-  width: 82vw;
+  padding: 25px 0px;
+  width: 100%;
 }

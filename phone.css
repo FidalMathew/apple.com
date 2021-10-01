@@ -1,116 +1,100 @@
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.nav{
-    overflow: hidden;
-    width: max-content;
+.nav {
+  overflow: hidden;
+  width: max-content;
 }
 
-nav ul{
-    display: none;
+nav ul {
+  display: none;
 }
 
 nav .logo {
-    position: relative;
-    left: 25px;
-    width: 28px;
-    top: -1px;
+  position: relative;
+  left: 25px;
+  width: 28px;
+  top: -1px;
 }
 nav .bag {
-    position: relative;
-    left: 90px;
-    width: 30px;
-    top: 0px;
-   
+  position: relative;
+  left: 90px;
+  width: 30px;
+  top: 0px;
 }
 
-nav .searching{
- 
-    position: relative;
-    right: 115px;
-    width: 30px;
-    top: 0px;
+nav .searching {
+  position: relative;
+  right: 115px;
+  width: 30px;
+  top: 0px;
 }
 
 .moreinfo p {
-    margin-top: 2px;
-    box-sizing: border-box;
-    padding-top: 2px;
+  margin-top: 2px;
+  box-sizing: border-box;
+  padding-top: 2px;
 }
 
-
-
-.content{
-    overflow: hidden;
-    width: auto;
+.content {
+  overflow: hidden;
+  width: auto;
 }
-
-
 
 .content .iphone12img img {
-    width: 365px;
+  width: 365px;
 }
-
-
-
-
 
 .content2 .prodesc img {
-    width: 335px;
+  width: 335px;
 }
-
 
 .content2 .proimg img {
-    width: 345px;
+  width: 345px;
 }
 
-.iphone12-links a{
-    margin-bottom: 10px;
+.iphone12-links a {
+  margin-bottom: 10px;
 }
 
-.content2{
-    overflow: hidden;
+.content2 {
+  overflow: hidden;
 }
 
-
-
-
-
-.bag-items
-{       width: 100%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    transition: 0.5s;
-    border-radius: 10px;
-    border: black;
+.bag-items {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: black;
+  top: 45px;
+  left: 0px;
+  right: 0px;
 }
 
 .bag-items ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.bag-items ul li a{
-    text-decoration: none;
-    color: #6666d1;
+.bag-items ul li a {
+  text-decoration: none;
+  color: #6666d1;
 }
 
 .bag-items ul li {
-    box-sizing: border-box;
-    padding: 11px;
-    padding-left: 28px;
-    width: 85vw;
-    display: block;
-    border-top: 1px solid black;
+  box-sizing: border-box;
+  padding: 11px;
+  padding-left: 28px;
+  display: block;
+  border-top: 1px solid black;
 }
 
 .bag-items p {
-    text-align: center;
-    padding: 25px;
-    width: 82vw;
-   
+  text-align: center;
+  padding: 25px;
+  width: 82vw;
 }
-
-
