@@ -181,3 +181,17 @@ color: rgba(0,0,0,0.8);
     filter: blur(0px);   
     z-index: 10;
 }
+
+#footer{
+    padding:20px 0 20px 0;
+    text-align: center;
+    background-color:#D3D3D3;
+}
+
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightgray;
+
+  }
