@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>apple.com</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 1170px)"
-      href="phone.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
-    rel="stylesheet"
-  />
-  <body id="body">
+  
+  <body>
     <div class="container">
-      <nav class="navbar">
-        <img src="./Images/apple(grey).jpg" class="logo" />
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="./Images/apple(grey).jpg"/></label>
         <ul>
-          <li><a href="#">Mac</a></li>
+          <li><a class="active" href="#">Mac</a></li>
           <li><a href="#">iPad</a></li>
           <li><a href="#">iPhone</a></li>
           <li><a href="#">Watch</a></li>
           <li><a href="#">TV</a></li>
           <li><a href="#">Music</a></li>
           <li><a href="#">Support</a></li>
+          
         </ul>
 
         <img src="./Images/searching.jpg" class="searching" alt="">
