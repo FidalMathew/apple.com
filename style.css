@@ -1,183 +1,213 @@
-*{
-    padding: 0;
-    margin: 0;
-    
+* {
+  padding: 0;
+  margin: 0;
 }
 
-
-
-nav{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    height: 45px;
-    top: 0px;
-    
-    background-color: rgb(49 48 48);
-    position:absolute;
-    position: sticky;
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  top: 0px;
+  background-color: rgb(49 48 48);
+  position: sticky;
 }
-
-
 
 nav .logo {
-    
-    position: relative;
-    left: -500px;
-    width: 20px;
-    top: -1px;
-    cursor: pointer;
+  position: relative;
+  left: -500px;
+  width: 20px;
+  top: -1px;
+  cursor: pointer;
 }
-nav .searching{
-    position: relative;
-    right: -351px;
-    width: 28px;
-    top: 1px;
-    cursor: pointer;
+nav .searching {
+  position: relative;
+  right: -351px;
+  width: 28px;
+  top: 1px;
+  cursor: pointer;
 }
-nav .bag{
-    position: relative;
-    left: 424px;
-    width: 30px;
-    top: 0px;
-    cursor: pointer;
+nav .bag {
+  position: relative;
+  left: 424px;
+  width: 30px;
+  top: 0px;
+  cursor: pointer;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 261px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 261px;
 }
 
-nav ul li{
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    list-style: none;
-    margin-right: 0px;
-    margin-left: 75px;
-    font-size: 14px;
-    
+nav ul li {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  list-style: none;
+  margin-right: 0px;
+  margin-left: 75px;
+  font-size: 14px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color:rgb(197 197 197);
-    transition: 0.4s;
-
+nav ul li a {
+  text-decoration: none;
+  color: rgb(197 197 197);
+  transition: 0.4s;
 }
 
-nav ul li a:hover{
-    color: white;
+nav ul li a:hover {
+  color: white;
 }
 
+.moreinfo {
+  width: 100%;
 
-
-.moreinfo{
-    width: 100%;
-
-
-background-color: #f5f5f7;
-height: 45px;
-display: flex;
-align-items: center;
-justify-content: center;
+  background-color: #f5f5f7;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.moreinfo p{
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-font-size: 14px;
-color: rgba(0,0,0,0.8);
-
+.moreinfo p {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
 }
-.moreinfo p a{
-   
-    text-decoration: none;
-    color: #5171e3;
+.moreinfo p a {
+  text-decoration: none;
+  color: #5171e3;
 }
-.moreinfo p a:hover{
-    border-bottom: 1px solid #5171e3;
-}
-
-
-.content{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fbfbfd;
-    padding-bottom:8px ;
-}
-.content .iphone12desc{
-    margin-top: 43px;
-    margin-bottom: 13px;
-    
-}
-.content .iphone12desc img{
-    width: 255px;
+.moreinfo p a:hover {
+  border-bottom: 1px solid #5171e3;
 }
 
- .iphone12-links a{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 21px;
-    text-decoration: none;
-    color: rgb(81 114 232);
-    margin-right: 10px;
-    margin-left: 12px;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfd;
+  padding-bottom: 8px;
+}
+.content .iphone12desc {
+  margin-top: 43px;
+  margin-bottom: 13px;
+}
+.content .iphone12desc img {
+  width: 255px;
 }
 
- .iphone12-links a:hover{
-    border-bottom: 1px solid #5171e3;
+.iphone12-links a {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(81 114 232);
+  margin-right: 10px;
+  margin-left: 12px;
 }
 
-.content .iphone12img{
-    margin-top:22px ;
+.iphone12-links a:hover {
+  border-bottom: 1px solid #5171e3;
 }
 
-.content .iphone12img img{
-    width: 764px;
-    
+.content .iphone12img {
+  margin-top: 22px;
 }
 
-
-
-.content2{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom:10px ;
-    
-}
-.content2 .prodesc{
-    margin-top: 33px;
-    margin-bottom: 13px;
+.content .iphone12img img {
+  width: 764px;
 }
 
-.content2 .prodesc img{
-    width: 370px;
+.content2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.content2 .prodesc {
+  margin-top: 33px;
+  margin-bottom: 13px;
 }
 
-
-.content2 .proimg{
-    margin-top:22px ;
-   position: relative;
-   left: 37px;
-
+.content2 .prodesc img {
+  width: 370px;
 }
 
-.content2 .proimg img{
-    width: 800px;
+.content2 .proimg {
+  margin-top: 22px;
+  position: relative;
+  left: 37px;
 }
 
+.content2 .proimg img {
+  width: 800px;
+}
 
+.bag-items {
+  display: none;
+  filter: blur(0px);
+  z-index: 10;
+}
 
-.bag-items{
-    display: none;
-    filter: blur(0px);   
-    z-index: 10;
+.bag-items {
+  width: 200px;
+  position: fixed;
+  top: 50px;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 1px solid #d2d2d7;
+  display: none;
+  filter: blur(0px);
+  z-index: 10;
+}
+
+.bag-items ul {
+  list-style-type: none;
+}
+
+.bag-items ul li a {
+  text-decoration: none;
+  color: #6666d1;
+}
+
+.bag-items ul li {
+  box-sizing: border-box;
+  padding: 11px;
+  padding-left: 28px;
+  width: calc(100% - 20px);
+  display: block;
+  border-top: 1px solid #d2d2d7;
+  margin: 0px 10px;
+}
+
+.bag-items p {
+  text-align: center;
+  padding: 25px 0px;
+  width: 100%;
+}
+
+#footer {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
 }
