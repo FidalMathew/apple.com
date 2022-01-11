@@ -16,8 +16,8 @@ nav{
     top: 0px;
     
     background-color: rgb(49 48 48);
-    position:sticky;
-
+    position:absolute;
+    position: sticky;
 }
 
 
