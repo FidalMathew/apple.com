@@ -214,3 +214,99 @@ hr {
     background-color:lightgray;
 
   }
+ .fcontainer{
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+    
+ }
+
+
+ .fitem.label{
+  display: block;
+ }
+
+ .fitem.img{
+  height: 54px;
+ }
+ 
+ .label {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    /* letter-spacing: -0.01em; */
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block;
+    align-items: center;
+    /* margin: 0; */
+    cursor: pointer;
+ }
+
+ .label:hover{
+  color: blue;
+ }
+ .fitem_1 img{
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+  .fitem_2 img{
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .fitem_3 img{
+      padding: 10px;
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  .fitem_4 img{
+        padding: 18.5px;
+        padding-top: 0;
+        padding-bottom: 0;
+  }
+  .fitem_5 img{
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .fitem_6 img{
+    padding: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .fitem_7 img{
+    padding: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .fitem_8 img{
+    padding: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    .fitem_9 img{
+      padding: 10px;
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  .fitem_10 img{
+    padding: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .fitem_11 img{
+    padding: 7.6px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
